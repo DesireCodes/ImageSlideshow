@@ -24,24 +24,24 @@ android {
         }
     }
 
-    publishing {
-
-        /** this is use to overcome error bellow
-         * A problem occurred configuring project ':rating'.
-         > Could not get unknown property 'release' for SoftwareComponentInternal set of type org.gradle.api.internal.component.DefaultSoftwareComponentContainer.
-         * */
-
-        singleVariant("release") {
-            withSourcesJar()
-            withJavadocJar()
-        }
-
-        multipleVariants {
-            withSourcesJar()
-            withJavadocJar()
-            allVariants()
-        }
-    }
+//    publishing {
+//
+//        /** this is use to overcome error bellow
+//         * A problem occurred configuring project ':imageslider'.
+//         > Could not get unknown property 'release' for SoftwareComponentInternal set of type org.gradle.api.internal.component.DefaultSoftwareComponentContainer.
+//         * */
+//
+//        singleVariant("release") {
+//            withSourcesJar()
+//            withJavadocJar()
+//        }
+//
+//        multipleVariants {
+//            withSourcesJar()
+//            withJavadocJar()
+//            allVariants()
+//        }
+//    }
 
 
 }
