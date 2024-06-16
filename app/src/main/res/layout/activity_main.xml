@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <com.desirecodes.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:blk_alpha="2dp"
+            app:blk_downscaleFactor="0.01"
+            app:iss_auto_cycle="false"
+            app:iss_corner_radius="16dp"
+            app:iss_delay="1000"
+            app:iss_no_dots="false"
+            app:iss_period="1000"
+            app:iss_show_blur_view="true"
+            app:iss_text_align="CENTER"
+            app:iss_text_color="#FFA0A0" />
+
+</LinearLayout>
