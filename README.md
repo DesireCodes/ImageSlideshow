@@ -1,8 +1,8 @@
 <!--lint disable-->
-<a href="https://github.com/denzcoskun/ImageSlideshow">  
+<a href="https://github.com/desirecodes/ImageSlideshow">  
 <img src="https://user-images.githubusercontent.com/15522554/54867096-7169d700-4d8d-11e9-8f9a-bee162a01427.png">  
 </a>  
-<a href="https://github.com/denzcoskun/ImageSlideshow">  
+<a href="https://github.com/desirecodes/ImageSlideshow">  
 <img align="left" src="https://user-images.githubusercontent.com/15522554/229944463-5957a2b5-81e2-4cf7-9efa-ab23313e9a39.gif"/>  
 </a>  
 <h1 align="center">Android Image Slider</h1>  
@@ -16,14 +16,14 @@
 </br>
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImageSlideshow-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7587)
-[![license](https://img.shields.io/github/license/denzcoskun/imageslideshow.svg?style=popout)](https://opensource.org/licenses/Apache-2.0)
-[![](https://jitpack.io/v/denzcoskun/ImageSlideshow.svg)](https://jitpack.io/#denzcoskun/ImageSlideshow)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/db19e5bd13bb4396a4adcbc1954325cc)](https://www.codacy.com/manual/denzcoskun/ImageSlideshow?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=denzcoskun/ImageSlideshow&amp;utm_campaign=Badge_Grade)
+[![license](https://img.shields.io/github/license/desirecodes/imageslideshow.svg?style=popout)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/desirecodes/ImageSlideshow.svg)](https://jitpack.io/#desirecodes/ImageSlideshow)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/db19e5bd13bb4396a4adcbc1954325cc)](https://www.codacy.com/manual/desirecodes/ImageSlideshow?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=desirecodes/ImageSlideshow&amp;utm_campaign=Badge_Grade)
 
 ## Usage
 - Add ImageSlider to your **layout**
 ```xml  
-<com.denzcoskun.imageslider.ImageSlider    
+<com.desirecodes.imageslider.ImageSlider    
      android:id="@+id/image_slider"    
      android:layout_width="wrap_content"    
      android:layout_height="300dp"    
@@ -63,7 +63,7 @@ imageSlider.setImageList(imageList)
 <img src="https://user-images.githubusercontent.com/15522554/85434498-d0209080-b58e-11ea-83cc-ce79076391c1.jpg">  
 
 ```kt  
-import com.denzcoskun.imageslider.constants.ScaleTypes // important  
+import com.desirecodes.imageslider.constants.ScaleTypes // important  
   
 // FIT, CENTER_CROP or CENTER_INSIDE  
   
@@ -98,7 +98,7 @@ imageSlider.setItemClickListener(object : ItemClickListener {
        // Listen for clicks under 250 milliseconds.  
  } })  
 ```  
--   You can add animation like that, <b>14 Animations added</b>. You can check in <a href="https://github.com/denzcoskun/ImageSlideshow/blob/master/imageslider/src/main/java/com/denzcoskun/imageslider/constants/AnimationTypes.kt"> Animation List </a>
+-   You can add animation like that, <b>14 Animations added</b>. You can check in <a href="https://github.com/desirecodes/ImageSlideshow/blob/master/imageslider/src/main/java/com/desirecodes/imageslider/constants/AnimationTypes.kt"> Animation List </a>
 ```kt  
 imageSlider.setSlideAnimation(AnimationTypes.ZOOM_OUT)  
 ```  

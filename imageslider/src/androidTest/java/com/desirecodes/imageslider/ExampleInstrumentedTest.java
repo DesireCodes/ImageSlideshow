@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.denzcoskun.imageslider.test", appContext.getPackageName());
+        assertEquals("com.desirecodes.imageslider.test", appContext.getPackageName());
     }
 }
