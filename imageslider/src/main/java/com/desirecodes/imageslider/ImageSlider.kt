@@ -2,6 +2,7 @@ package com.desirecodes.imageslider
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.os.Build
 import android.os.Handler
 import android.util.AttributeSet
 import android.view.Gravity
@@ -9,6 +10,7 @@ import android.view.LayoutInflater
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
 import com.desirecodes.imageslider.adapters.ViewPagerAdapter
@@ -127,6 +129,20 @@ class ImageSlider @JvmOverloads constructor(
             blurView?.visibility = GONE
         }
 
+    }
+
+    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
+    fun startBlur() {
+        blurView?.startBlur()
+    }
+
+    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
+    fun pauseBlur() {
+        blurView?.pauseBlur()
+    }
+
+    fun lockView() {
+        blurView?.lockView()
     }
 
     /**
