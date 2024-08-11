@@ -68,7 +68,7 @@ afterEvaluate {
 
                 groupId = 'com.github.DesireCodes'
                 artifactId = 'ImageSlideshow'
-                version = '1.0.0'
+                version = '1.0.9'
             }
         }
     }
